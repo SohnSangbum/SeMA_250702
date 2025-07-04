@@ -182,7 +182,7 @@ window.addEventListener('scroll', (e) => {
         $nav.style.opacity = 1;
         $h1.classList.remove('on');
         $nav.classList.remove('on');
-        $h1.style.backgroundImage = 'url(../images/museumlogo_01.png)';
+        $h1.style.backgroundImage = 'url(./images/museumlogo_01.png)';
         $wrap.style.background = ''; // 또는 원래 색상으로 복원
         $posters.forEach((item) => item.classList.remove('scrolled'));
         $dot.forEach((item) => item.classList.remove('scrolled'));
@@ -199,7 +199,7 @@ window.addEventListener('scroll', (e) => {
     } else if (ty > 343 && ty <= 1200) {
         $nav.style.display = 'block';
         $h1.classList.add('on');
-        $h1.style.backgroundImage = 'url(../images/museumlogo_02.png)';
+        $h1.style.backgroundImage = 'url(./images/museumlogo_02.png)';
         $nav.classList.add('on');
         $wrap.style.background = ''; // 또는 원래 색상으로 복원
         $posters.forEach((item) => item.classList.remove('scrolled'));
@@ -217,7 +217,7 @@ window.addEventListener('scroll', (e) => {
     } else if (ty > 1200 && ty <= 2850) {
         $nav.style.opacity = 1;
         $wrap.style.background = '#fff';
-        $h1.style.backgroundImage = 'url(../images/museumlogo_03.png)';
+        $h1.style.backgroundImage = 'url(./images/museumlogo_03.png)';
         $posters.forEach((item) => item.classList.add('scrolled'));
         $dot.forEach((item) => item.classList.add('scrolled'));
         $txt1.forEach((item) => (item.style.color = '#000'));
